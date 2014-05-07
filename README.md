@@ -7,7 +7,7 @@ For this application in particular, we needed access to the domain Google groups
 
 We chose to use [Google Apps Script][1] and build a custom UI using the [UI Service][2]. Here's how it looks.
 
-[insert image of opening screen]
+![enter image description here][3]
 
 The included source files build the UI and allow search functionality across the list of Google groups. The Google groups are stored in a spreadsheet so they can easily searched. It was not possible to directly query the domain group api as it proved to slow.
 
@@ -67,3 +67,4 @@ Good luck!
 
   [1]: https://developers.google.com/apps-script/
   [2]: https://developers.google.com/apps-script/reference/ui/
+  [3]: https://raw.githubusercontent.com/warwickshire/wcc-groups/master/wcc_groups_main.jpg
